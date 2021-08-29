@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    color: rgb(75, 75, 75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+    display: flex;
+    padding: 20px 60px;
+    background-color: rgb(4, 26, 61);
+    height: 130px;
+    margin-bottom: 100px;
+}
+
+.foto {
+    width: 40%;
+    text-align: center;
+}
+
+.foto h3 {
+    width: 90px;
+    /* background-color: white; */
+    color: white;
+    margin: 20px auto;
+}
+
+.foto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin: 0px 20px;
+}
+
+.identitas {
+    height: 140px;
+    width: 65%;
+    padding-top: 60px;
+    border-bottom: 2px solid black;
+}
+
+.identitas h2 {
+    color: white;
+}
+
+main {
+    padding: 0px 80px;
+    display: flex;
+}
+
+.kiri {
+    text-align: right;
+    width: 35%;
+}
+
+.kiri div h3 {
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px dashed rgb(109, 108, 108);
+}
+
+.subKiri {
+    margin-bottom: 35px;
+    padding-right: 5px;
+
+}
+
+.subJudul {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.subKiri p {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.subContact {
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.kanan {
+    width: 65%;
+    margin-left: 10px;
+}
+
+.subKanan {
+    background-color: rgb(211, 211, 211);
+    padding: 5px 15px 20px 15px;
+    margin-bottom: 20px;
+}
+
+.subKananLagi {
+    display: grid;
+    grid-template-columns: 60px 90%;
+}
+
+.subKananLagi img {
+    width: 50px;
+    height: auto;
+}
+
+.year {
+    padding: 0;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.subExper {
+    display: grid;
+    grid-template-columns: 150px 65%;
+}
+
+.bidang p {
+    text-align: justify;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 25% 20%;
+    vertical-align: middle;
+
+}
+
+.skill h4,
+progress {
+    margin: 5px;
+}
